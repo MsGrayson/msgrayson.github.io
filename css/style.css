@@ -1,0 +1,80 @@
+            body {
+                background: rgb(255, 255, 255);
+                color: rgb(45, 45, 45);
+                padding: 10px;
+                font-family: arial;
+                margin:0;
+                padding: 0;
+            }
+            
+            header {
+                font-size: 1em;
+                font-weight: bold;
+            }
+            #all-contents {
+                max-width: 100%;
+                margin: 0;
+            }
+            
+            .wrap {
+                display:flex;
+                margin: 0 auto;
+                width: 100%;
+                max-width: 960px;
+            }
+
+            /* navigation menu */
+            nav {
+                background: rgb(239, 80, 41);
+                margin: 0 auto;
+                display: flex;
+                padding: 10px;
+            }
+            nav header {
+                display: flex;
+                align-items: center;
+                color: rgb(255, 255, 255);
+                flex: 1;
+                font-family: 'Amatic SC', cursive;
+                font-weight: bold;
+                font-size: 24pt;
+            }
+            nav ul {
+                list-style-image: none;
+            }
+            nav li {
+                display: inline-block;
+                padding: 0 10px;
+                font-family: 'Andika', sans-serif;
+                font-size: 12pt;
+            }
+            nav a {
+                text-decoration: none;
+                color: #fff;
+            }
+
+            /* main container area beneath menu */
+            main {
+                background: rgb(255, 255, 255);
+                display: flex;
+                line-height:1.25em;
+            }
+            .sidebar {
+                margin: 2em 1em 0 0;
+                padding: 0;
+            }
+            .sidebar img {
+                width: 200px;
+            }
+            .content {
+                flex: 1;
+                padding: 0;
+                margin: 1em 0 0 0.5em;
+            }
+            .interests header {
+                font-size: 1.25em;
+            }
+            .interest ul {
+                padding: 0 1em;
+                margin-top: 0.5em;
+            }
